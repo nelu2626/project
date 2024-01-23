@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS programms list</title>
+    <style>
+      body{
+        font-size: smaller;
+        border: ridge gold 5px;
+        width: 100%;
+        height:100%;
+        text-align: left;
+        background-color: rgb(143, 160, 183);
+        margin-left: 20px;
+        padding-left: 5px;
+        box-shadow: 0px 20px 2px;
+
+        
+        
+      }
+    </style>
+</head>
+<body>
+    <h1>CSS Project</h1><hr>
+    <details>
+    <summary>What is CSS</summary>
+    CSS stands for Cascading style sheets.It is a style sheet language which is used to describe the look and formatting of a document written in markeup language.It is generally used with HTML to change the style of webpages and user interfaces.It can also be used with any kind of XML documents including plain XML,SVG and XUL.
+    
+      <ol>
+        Types of CSS 
+        <li>Inline</li>
+        <li>Internal</li>
+        <li>External:External CSS is used to apply css on multiple pages or all pages.Here we write all the css code in a css file.Its extension must be css for example style.Eg:p{color:blue} you need to think this style css file to your html pages like this</li>
+    </ol>
+</details>
+  <details>
+    <summary>CSS Selectors</summary>CSS Selectors are used to selelct the content you want to style.Selelctors are the part of css rule set.CSS selectors selelct HTML elelments according to its id,class,type,attribute etc.
+    <ol>There are several different types of selectors in css
+        <li>CSS Element Selector </li>
+        <li>CSS Id Selector</li>
+        <li>CSS Class Selector</li>
+        <li>CSS Universal Selector</li>
+        <li>CSS Group Selector</li></ol>
+  </details>
+  <details>
+    <summary>CSS Combinators</summary>CSS Combinators are explaining the relationship between two selectors.CSS Selectors are the patterns used to select the elements for style purpose.A css selector can be a simple selector or a complex selelctor complex consisting of more than one selector connected using combinators.There are four different combinators in css.
+    * Descendant Selelctor(space)
+    * Child Selector (>)
+    * Adjacent Sibling Selector (+)
+    * Genenral Sibling Selector (~)
+  </details>
+  <details>
+    <summary>CSS Font</summary>
+    CSS Font property is used to control the look of texts.By the use of css font property you can change the text size,color,style and more
+    These are some important font attributes:
+    <ol>
+    <li><u>CSS Font Color:</u>This property is used to change the color of the text.(stand alone attribute)</li>
+    <li><u>CSS Font Family:</u>It is used to change the face of the font.</li>
+    <li><u>CSS Font Size:</u>It is used to increase or decrease the size of the font.</li>
+    <li><u>CSS Font Style:</u>It is used to make the font bold,italic or oblique.</li>
+    <li><u>CSS Font Variant:</u>It creates a small-caps effect.</li>
+    <li><u>CSS Font Weight:</u>It is used to increase or decrease the boldness and lightness of the font.</li></ol>
+  </details>
+  <details>
+    <summary>CSS Color</summary>The color property in css is used to set the color of HTML elements.Typically this property is used to set the background color or the font color of an elelment.In css we use color values for specifying the color.We can also use this property for the border-color and other decorative effects.We can define the color of an element by using the following ways:
+   <ul>
+    <li>RGB Format-Red ,Green,Blue(0-255)
+      <mark>Eg: color:rgb(r,g,b)</mark>
+    </li>
+    <li>RGBA Format-Red,Green,BlueAlpha
+      <mark>Eg:color:rgba(R,G,B,A)</mark>
+    </li>
+    <li>Hexadecimal notation:<mark>Eg:Color:#Red(0-F)(0-F)(0-F)G(0-F)(0-F)B(0-F)</mark>
+    </li>
+    <li>Hue Saturation Lightness</li>
+    <li>HSLA</li>
+    </ul>
+  </details>
+  <u>Float:</u>Float is used to change the direction in Html elements
+    <PRE>
+      Eg:p{background color=pink
+           width=200px
+           height=200px}
+    </PRE>
+  
+  <details><summary>CSS Background Family</summary>
+    <summary><u>CSS Background-Color:</u></summary>The background color property is used to specify the background color of the elelment.You can set the background color like this.<mark>Ex:background-color:Yellow</mark>
+    <summary><u>CSS Background Image:</u></summary>The background-image property is used to set an iage as a background of an elelment.By default the image covers the entire element you can set the background image fo a page like this.
+    <mark>Eg:Background-image:Url()</mark>
+    <summary><u>CSS Background-repeat:</u></summary>By default the background-image property repeats the background image horizontally and vertically.Some images are repeated only horizontally or vertically.<mark>Eg:Background-repeat:repeat-x,repeat,no-repeat,repeat-y</mark>
+    <summary><u>CSS Background-attachment:</u></summary>The background attachment property is used to specify if the background image is fixed or scroll with the rest of the page in browser window.If you set fixed the background image then the image will not move during scrolling in the browser.<mark>Eg:Background-attachment:fixed</mark>
+    <summary><u>CSS Background Position:</u></summary>The background-position property is used to define the initial position of the background image.By default,the background image is placed on the top-left of the wbepage.you can set the following positions:center left bottom top right.<mark>Eg:background-position:top center;,Eg:background-position:100px,200px;</mark>
+  </details>
+  <details>
+    <summary>Gradient colors</summary>
+    <ul>
+      <li><u>Conic-gradient():</u>Sets a conic gradient as the background image define atleast two colors.<mark>Eg:Background-image:Conic-gradient(red,yellow)</mark></li>
+      <li><u>Linear-gradient():</u>Sets a linear gradient as the background image define atleast two colors<mark>Eg:background-image:linear-gradient</mark></li>
+      <li><u>Radial-gradient():</u>Sets a radial gradient as the background image define atleast two colors.<mark>Eg:Background-image:radical-gradient(blue,yellow)</mark></li>
+      <li><u>repeating-conic-gradient():</u>Repeats a conic gradient<mark>Eg:background-image:repeating-conic-gradient(red 10%,yellow 20%)</mark></li>
+      <li><u>repeating-radial-gradient():</u>repeats a gradial gradient<mark>Eg:background-image:repeating-radical-gradient(blue 10%,yellow 20%)</mark></li>
+      <li><u>repeating-linear-gradient():</u>repeats a linear gradient<mark>Ex:background-image:repeating-linear-gradient(red 10%,green 20%)</mark></li>
+    </ul>
+
+  </details>
+  <details>
+    <summary>CSS Border</summary>The CSS border is a shorthand property used to set the border on a element.The CSS border properties are use to specify the style color and size of the border of an element.The properties are given below.
+   <pre> 1.border-style
+         2.border-color
+         3.border-width
+         4.border-radius</pre>
+         1.<u>border-style</u>
+         It is used to specify the border type which you want to display on the webpage.There are some border style values which are used with border-style values which are used with border-style property to define a border.
+         <table border="1" width="300px" height="50px">
+          <tr>
+            <th>Value</th><th>Description</th>
+          </tr>
+          <tr>
+            <td>none:</td><td>It doesnt't define any border</td>
+          </tr>
+          <tr>
+            <td>dotted:</td><td>define a dotted border</td>
+          </tr>
+          <tr>
+            <td>dashed:</td><td>define a dashed border</td>
+          </tr>
+          <tr>
+            <td>solid:</td><td>define a solid border </td>
+          </tr>
+          <tr>
+            <td>double:</td><td>It defines two borders with the same border-width</td>
+          </tr>
+          <tr>
+            <td>groove:</td><td>It defines a 3d grooved border</td>
+          </tr>
+          <tr>
+            <td>ridge:</td><td>It defines a 3d ridge</td>
+          </tr>
+          <tr>
+            <td>inset:</td><td>It defines a 3d inset</td>
+          </tr>
+          <tr>
+            <td>outset:</td><td>It defines a 3d outset border effect is generated according to border color value</td>
+          </tr>
+         </table>
+         2.<u>border-width</u>It is used to set the borders width.It is set in pixels you can also use the one of the three pre-defined values thin,medium or thick to set the width of the border.<br>
+  
+         3.<u>border-color</u>There are three methods to set the color of the border.
+         Name:It specifies the color name.Eg:"red"
+         rgb:It specifies the RGB value of the color.For example:"rgb(255,0,0)"
+         Hex:It specifies the hex value of the color.For example:"#ff0000"<br>
+         There is also a border color named "transparent".If the border color is not set it is inherited from the color property of the element.
+         4.<u>CSS border-radius property</u>
+         This property sets the rounded corners around an elelment tags or div.It defines the radius of the corners of an elelment.It gives the round shape to the corners of the border of an element.We can specify the border for all four corners of the box in a single declaration using the border-radius.The values of this property can be defined in percentage or length units.<br>
+         <table border="2" width="400px" height="100px">
+          <tr>
+          <th>Property</th><th>Description</th>
+          </tr>
+          <tr>
+            <td>border-top-left-radius</td><td>set the border radius for the top left corner</td>
+          </tr>
+          <tr>
+            <td>border-top-right-radius</td><td>set the border radius for the top-right corner</td>
+          </tr>
+          <tr>
+            <td>border-bottom-right-radius</td><td>set the border radius for the bottom-right corner</td>
+          </tr>
+          <tr>
+            <td>border-bottom-left-radius</td><td>set the border-radius for the bottom-left corner</td>
+          </tr>
+          
+
+         </table>
+         If the bottom-left value is omitted then it will be same as the top-right.If the value of bottom-right is eliminated,then it will be same as the top-left.Similarily,if top-right is eliminated then it will be the same as top-left.
+  </details>
+  <details>
+    <summary>Css Margins</summary>
+    Css margin property is used to define the space around elelments.It is completely transparent and doesn't have any backgorund color.It clears an area around the element Top,bottom,left and right margin can be changed independently using separate properties.You can also change all properties at once by using shorthand margin property.
+    <ol>
+      <u>Margin properties</u>
+      <li>Margin-left</li>
+      <li>Margin-right</li>
+      <li>Margin-bottom</li>
+      <li>Margin-top</li>
+      <u>Margin values</u><br>
+      These are some possible values for margin property
+      <table border="2" width="250px" height="100px">
+        <tr>
+          <th>Value:</th><th>Description</th>
+        </tr>
+        <tr>
+          <td>auto:</td><td>This is used to let the browser calculate margin</td>
+        </tr>
+        <tr>
+          <td>length:</td><td>It is used to specify the margin</td>
+        </tr>
+        <tr>
+          <td>0px:</td><td>It is used to define %</td>
+        </tr>
+        <tr>
+          <td>inherit:</td><td>It is used to inherit margin from parent element</td>
+        </tr>
+      </table>
+
+    </ol>
+  </details>
+  <details>
+    <summary>Margin shorthand properties</summary>CSS shorthand property is used to shorten the code.It specifies all the margin properties in one property.There are four types to specifies all the margin properties in one property.There are four types to specify the margin property.You can use one of them.<br>
+    <mark>Ex:1 margin:50px 100px 150px 200px;</mark><br>It defines that top,right,bottom,and left margin values.<br><mark> 2.margin:50px 100px 150px;</mark><br>It defines top,left and right margins and bottom margin values.<br><mark>3.margin:50px 100px;</mark><br>It defines top and bottom and left and right margin values.<br><mark>4.margin:50px;</mark><br>It defines are four sides margin values.
+  </details>
+  <details>
+    <summary>CSS Pseudo Classes</summary>A pseudo-class can be defined as a keyword which is combined to a selector that defines the special state of the selelcted elements.It is added to the selection for adding an effect to the existing elements based on their states.<br>
+    <u>Syntax:</u> <pre>
+              selection:pseudo-class{
+                property:value;
+              }
+    </pre>
+    <table border="2" width="300px" height="200px">
+      <tr>
+        <th>Pseudo-class</th><th>Description</th>
+      </tr>
+      <tr>
+        <td>:active</td><td>It is used to add style to an active element</td>
+      </tr>
+      <tr>
+        <td>:hover</td><td>It adds special effects to an element when the user moves the mouse pointer over the element</td>
+      </tr>
+      <tr>
+        <td>:link</td><td>It adds style to the unvisited link</td>
+      </tr>
+      <tr>
+        <td>:visited</td><td>It adds style to a visited link</td>
+      </tr>
+      <tr>
+        <td>:focus</td><td>It selects the element which is focused by the user currently</td>
+      </tr>
+      <tr>
+        <td>:first-child</td><td>It adds special effects to an elelment,which is the first child of another element</td>
+      </tr>
+    </table>
+
+    
+
+  </details>
+  <details>
+    <summary>Feild-set tag</summary><ul><li>It is used to give the different formates to the HTML form elements as well as programmer can take input form user. </li>
+    <li>Feild-set is used to represent the group of different feilds at on place & if is easier to understand.</li>
+    <li>By default feildset will extends from starting corner of browser to ending corner.</li>
+    <li>In order to reduce dimension of the feildset programmer have to make use of css properties like "height"& in the css programmers using "pixels" as measurement unit which represent by "px"</li>
+    <mark><li>For example
+      &lt;feildset style="width: 100px; height:200px"&gt;&lt;/feildset&gt;
+    </li></mark>
+    <li>&lt;legend&gt; is used to provide the content on the line of the feildset.</li>
+    <li>In order to take the data from user programmers have to make use at &lt;input&gt;.</li>
+    <li>To disappear inputbox on the browser we have to make use of css properties as "border:0px"&</li>
+    </ul>
+  </details>
+  <details>
+    <summary>Layout Tags</summary>
+    <ol>
+      <li>Layout tags are used to provide proper arguement for HTML elements.</li>
+      <li>We can say that these tags are alternative of div tag</li>
+      <li>Div tags are belongs to XHTML layout tags are HTMLS</li>
+      <li>There are six types of elements</li>
+      <ul type="circle">
+        <li>&lt;Header&gt;</li>
+        <li>&lt;nav&gt;</li>
+        <li>&lt;article&gt;</li>
+        <li>&lt;section&gt;</li>
+        <li>&lt;aside&gt;</li>
+        <li>&lt;footer&gt;</li>
+       </ul>
+       <li>We can use "css" properties like,width,height,background,color,etc</li>
+    </ol>
+  </details>
+  <details>
+    <summary>Details Tag</summary><ul><li>&lt;details&gt; is a tag which display infromation once user click it,again it will get hide.</li>
+    <li>To write information make use of &lt;details&gt; tag wheareas to show heading for information make use of &lt;summary&gt; tag.</li>
+    <li>For example
+      <pre>
+        &lt;details&gt;
+        &lt;summary&gt;what is css&lt;/summary&gt;CSS stands for cascading  style sheet it is used to decorate webpage.&lt;details&gt;
+      </pre>
+    </li>
+  </ul>
+  </details>
+  <details>
+    <summary>Text Shadow tag</summary>syntax: text shadow :0px 30px 0px<br>
+    In this example first 0px is constant,30px is chnaged and 0px is used for blur.<br>
+    box shadow:0px 20px 0px<br>
+    outline:10px groovered;
+
+  </details>
+  <details>
+    <summary>Display Property</summary>
+    <ol type="a">
+      <li>This property is used to display the contents may be in the same line or in the different line</li>
+      <li>I t takes important values</li>
+      <ol type="i">
+        <li><u>Block:</u>It is used to display the contents onto the next line of the browser.</li>
+        <li><u>Inline:</u>It is used to display the contents on the same line on the browser.</li>
+        <li><u>None:</u>It is used to display the contents on the browser and displayed when it is necessary</li>
+
+
+     </ol>
+
+    </ol>
+  </details>
+  <details>
+    <summary>CSS Flexbox</summary>The css flexbox is used to make teh elements behave predictably when they are used with different screen sizes and different display devices.It provides a more efficient way to layout align and distribute space among items in the container.The flex box contains flex containers and flex items.
+    <ol>
+      <li><u>Flex container:</u>The flex container specifies the properties of the parent.It is declared by setting the display property of an element to either flex or inline-flex</li>
+      <li><u>Flex-items:</u>The flex items specify properties of the children.There may be on or more flex items inside a flex container.Flexbox specifies how flex items are set inside a flex container.It sets the flex items inside a flex container along a flex line.By default ,there is only one flex line per flex container.Everything outside a flex container and inside a flex item is considered as usual. </li>
+    </ol> 
+  </details>
+  <details>
+    <summary>CSS Flexbox properties</summary>
+    <table border="2" width="500px" height="100px">
+      <tr>
+        <th>Property</th><th>Description</th>
+      </tr>
+      <tr>
+        <td>display:</td><td>It is used to specify the type of box used for an html element.</td>
+      </tr>
+      <tr>
+        <td>Flex-direction:</td><td>It is used to specify the direction of the flexible items inside a flex container.</td>
+      </tr>
+      <tr>
+        <td>Justify-Content:</td><td>It is used to align the flex items do not use all available space on the main-axis</td>
+      </tr>
+      <tr>
+        <td>Align-items:</td><td>It is used to align the flex-items vertically when the items don not use all available space on the cross-axis. </td>
+      </tr>
+      <tr>
+        <tr>
+          <td>Flex-wrap:</td><td>It specifies whether the flex items should wrap or not,if there is not enough room for them on one flex line.</td>
+        
+      </tr>
+      <tr>
+        <td>Align content:</td><td>It is used to modify the behaviour of the flex-wrap property.It is similar to align items,but instead of aligning flexitems,it align flex lines.</td>
+      </tr>
+      <tr>
+        <td>Flex-flow:</td><td>It specifies a shorthand property for flex-direction and wrap.</td>
+      </tr>
+      <tr>
+        <td>Flex-wrap order:</td><td>It specifies the order of a flexible item relative to the rest of the flex items inside the same container.</td>
+      </tr>
+      <tr>
+        <td>Align-self:</td><td>It is used on flex-items.It overrides the containers align-items property.</td>
+      </tr>
+      <tr>
+        <td>Flex:</td><td>It specifies the length of a flex item,relative to the rest of the flex items inside the same container.</td>
+      </tr>
+    </table>
+  </details>
+  <details>
+    <summary>CSS Grid</summary>A grid can be defines as an intersecting set of horizontal lines and vertical lines.CSS grid layout divides a page into major regions.It defines the relationship between the parts of a control built from HTML primitives in terms of layer position and size.Grid property offers a grid based layout system having rows and columns.It makes the designing of web pages easy without positioning and floating.
+    <details>
+      <summary>Grid container</summary>We can define the grid container by setting the display property to grid or inline-grid on an element.Grid container contains grid items that are placed inside rows and columns.
+    </details>
+  </details>
+  <details>
+    <summary>CSS Position</summary>The CSS position property is used to set position for an element.It is used to place an element behind another and also useful for scripted animation effect.
+    <ul>
+      <li>CSS Static Positioning</li>
+      <li>CSS Fixed Positioning</li>
+      <li>CSS Relative Positioning</li>
+      <li>CSS Absolute Positioning</li>
+    </ul>
+    <u>1.CSS static positioning</u><br>
+    This is a by default position for HTML elements.It always positions an element according to the normal flow of the page.<br>
+    <u>2.CSS fixed positioning</u><br>
+    It helps to put the text fixed on the browser.This fixed test is positioned relative to the browser window and doesnt move even you scroll the window.<br>
+    <pre>Ex:div:fixed{position:fixed;top:500;right:500;}</pre>
+    <u>3.CSS relative positioning</u><br>
+    It is used to set the element relative to its normal position.<br>
+    <pre>Ex:div.relative{position:relative;left:30px;}</pre>
+    <u>4.CSS absolute positioning</u><br>
+    It is used to position an element relative to the first parent element that has a position other than static.If no such element is found,the containing block is HTML.
+  </details>
+  Overflow :auto ;:one side scroll<br>
+  Overflow:hidden ;:text hidden<br>
+  Overflow:scroll;:x-axis,x-axis,y-axis<br>
+  Overflow:Visible;:Overflowtext
+ <details>
+  <summary>CSS Transition</summary>The CSS transitions are effects that are added to change the element gradually from one style to another,without using flash or javascript.You should specify two things to create css transition.The CSS property on which you want to add an effect.The time duration of the effect.<br>
+  <u>Transition properties:</u>
+  <ul>
+    <li>transition</li>
+    <li>transition-delay</li>
+    <li>transition-duration</li>
+    <li>transition-property</li>
+    <li>transition-timing-function</li>
+    
+  </ul>
+  <u>CSS Multiple Transition Effect</u>
+   It is used to add transition effect for more than one css property.If you want to add transition effect on more than  one property,separate those properties with a.
+ </details>
+ <details>
+  <summary>CSS Animations</summary>An animation lets an element gradually change from one style to another.To use animation you must first specify some keyframes for the animation key frames hold what styles the element will have at certain times.<br>
+ <ul><u>Animation Properties</u>
+     <li>animation-name</li>
+     <li>animation-duration</li>
+     <li>animation-delay</li>
+     <li>animation-iteration-count</li>
+     <li>animation-direction</li>
+     <li>animation-timing-function</li>
+     <li>animation-fill-mode</li>
+     <li>animation</li>
+  </ul>
+  <u>The @keyframes Rule</u><br>
+  When you specifies css styles inside the @keyframes rule,the animation will gradually change from the current style to the new style at certain times.The @keyframes keywords "from" and "to" (which represents 0% (start) and 100%(complete))
+  <u>Animation-duration:</u><br>
+  The duration property defines how long an animation should take to complete.If the animation-duration property is not specified, no animation will occur,because the default value is 0 seconds.<br>
+  <u>Animation-delay:</u><br>
+  The animation-delay property specifies a delay for the start of an animation.<br>
+  <u>Animation-iteration</u><br>
+  The animation iteration count property specifies the number of times an animation should run the value "infinite" to make the animation continue for ever.<br>
+  <u>Animation-direction:</u>The animation-direction property specifies wheather an animation should be played forwards,backwards or in alternate cycles.
+  <ul>
+    <li>Normal-The animation is played as normal(forwards).This is default.</li>
+    <li>Reverse-The naimation is played in rverse direction(backwards).</li>
+    <li>Alternate-The animation is played forwards first,then backwards.</li>
+    <li>Alternate-reverse-The animation is played backwards first,then forwards.</li>
+  </ul>
+    
+
+ </details>
+ <details>
+     <summary>CSS Icon Library</summary>
+     <ul>
+      <li>In css all the icons which are necessary are stored under "CSS ICON Library".</li>
+      <li>To use the icon from icon library programmers have to follow few-steps.</li>
+      <li>Attach the HTML file with CSS Icon Library by using &lt;link&gt; tag.</li><br>
+      &lt;link rel= "stylesheet" href="htt---------"&gt;&lt;/link&gt;<br>
+      <li>Browse font awesome.com website and search for appropriate icon required.</li>
+      <li>copy&lt;i&gt; tag and paste it into html file.</li>
+      <li>In html5 &lt;i&gt; tag is used for represent css icon.</li>
+      <li><u>Note:</u>To change color of icon use color CSS property,to change the size use fa-1x-----10x</li>
+     </ul>
+ </details><br>
+   <a href="HTMLproject.html">Go back to Html</a>
+
+    
+</body>
+</html> 
